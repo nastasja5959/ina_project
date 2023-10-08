@@ -1,0 +1,116 @@
+/* 共通部分ここから */
+.contents {
+	padding-top: 60px;
+}
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+}
+/* 共通部分ここまで */
+
+/*ヘッダーここから*/
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 60px;
+	border-bottom: 1px solid #f2f2f2;
+	z-index: 100;
+	background: #fff;
+}
+
+.header-inner {
+	background: #e7a487;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.logo {
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.menu {
+	position: absolute;
+	top: 50%;
+	left: 140px;
+	transform: translateY(-50%);
+	font-size: 13px;
+}
+
+.menu a {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.menu a:last-child {
+	margin-right: 0;
+}
+
+.sns {
+	text-align: right;
+}
+
+.sns li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.sns li a {
+	display: flex;
+	align-items: center;
+}
+
+.sns li .sns-icon {
+	width: 25px;
+	margin-right: 10px;
+}
+/*ヘッダーここまで*/
+
+/*メインここまで*/
+
+/*メインここまで*/
+
+/* フッターここから */
+.footer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.footer-logo {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-inner {
+	padding: 50px 0;
+}
+
+.footer img {
+	width: 100%;
+}
+
+.footer-link {
+	background: #e7a487;
+	text-align: center;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.footer-link li {
+	display: inline-block;
+	margin: 0 10px;
+}
+/* フッターここまで */
