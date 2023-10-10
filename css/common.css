@@ -78,12 +78,25 @@
 /*ヘッダーここまで*/
 
 /*メインここまで*/
+.containers{
+	margin-bottom: 100px;
+	width: 1000px;
+	padding-top: 105px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+
+
+
 
 /*メインここまで*/
 
 /* フッターここから */
 .footer {
 	width: 960px;
+	padding-bottom: 30px;
+	padding-top: 40px;
 	margin: 0 auto;
 }
 
